@@ -14,7 +14,7 @@
 
 
 @property (copy) NSString *model;
-
+@property (copy) NSString *interior;
 - (void)drive;
 
 @end
