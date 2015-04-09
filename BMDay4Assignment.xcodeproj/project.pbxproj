@@ -14,6 +14,9 @@
 		2AFC3BCB1AD717EA00C79000 /* Toaster.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AFC3BCA1AD717EA00C79000 /* Toaster.m */; };
 		2AFC3BCD1AD71B9900C79000 /* ChallengeTwo.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AFC3BCC1AD71B9900C79000 /* ChallengeTwo.m */; };
 		2AFC3BCF1AD71CE600C79000 /* ChallengeThree.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AFC3BCE1AD71CE600C79000 /* ChallengeThree.m */; };
+		2AFC3BD11AD720F400C79000 /* ChallengeFour.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AFC3BD01AD720F400C79000 /* ChallengeFour.m */; };
+		2AFC3BD31AD7228400C79000 /* ChallengeSix.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AFC3BD21AD7228400C79000 /* ChallengeSix.m */; };
+		2AFC3BD61AD722FA00C79000 /* XYPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AFC3BD51AD722FA00C79000 /* XYPoint.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -39,6 +42,10 @@
 		2AFC3BCA1AD717EA00C79000 /* Toaster.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Toaster.m; path = BMDay4Assignment/Toaster.m; sourceTree = "<group>"; };
 		2AFC3BCC1AD71B9900C79000 /* ChallengeTwo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChallengeTwo.m; sourceTree = "<group>"; };
 		2AFC3BCE1AD71CE600C79000 /* ChallengeThree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChallengeThree.m; sourceTree = "<group>"; };
+		2AFC3BD01AD720F400C79000 /* ChallengeFour.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChallengeFour.m; sourceTree = "<group>"; };
+		2AFC3BD21AD7228400C79000 /* ChallengeSix.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChallengeSix.m; sourceTree = "<group>"; };
+		2AFC3BD41AD722FA00C79000 /* XYPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XYPoint.h; path = BMDay4Assignment/XYPoint.h; sourceTree = "<group>"; };
+		2AFC3BD51AD722FA00C79000 /* XYPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XYPoint.m; path = BMDay4Assignment/XYPoint.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +84,8 @@
 				2AFC3BC71AD717D700C79000 /* ChallengeOne.m */,
 				2AFC3BCC1AD71B9900C79000 /* ChallengeTwo.m */,
 				2AFC3BCE1AD71CE600C79000 /* ChallengeThree.m */,
+				2AFC3BD01AD720F400C79000 /* ChallengeFour.m */,
+				2AFC3BD21AD7228400C79000 /* ChallengeSix.m */,
 			);
 			path = BMDay4Assignment;
 			sourceTree = "<group>";
@@ -88,6 +97,8 @@
 				2AFC3BAB1AD6F9BD00C79000 /* Car.m */,
 				2AFC3BC91AD717EA00C79000 /* Toaster.h */,
 				2AFC3BCA1AD717EA00C79000 /* Toaster.m */,
+				2AFC3BD41AD722FA00C79000 /* XYPoint.h */,
+				2AFC3BD51AD722FA00C79000 /* XYPoint.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -149,12 +160,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				2AFC3BAC1AD6F9BD00C79000 /* Car.m in Sources */,
+				2AFC3BD11AD720F400C79000 /* ChallengeFour.m in Sources */,
 				2AFC3BAF1AD70B6800C79000 /* dynamicTyping.m in Sources */,
 				2AFC3BCD1AD71B9900C79000 /* ChallengeTwo.m in Sources */,
 				2AFC3BCF1AD71CE600C79000 /* ChallengeThree.m in Sources */,
 				2AFC3BC81AD717D700C79000 /* ChallengeOne.m in Sources */,
 				2AFC3BA41AD6F83100C79000 /* main.m in Sources */,
+				2AFC3BD31AD7228400C79000 /* ChallengeSix.m in Sources */,
 				2AFC3BCB1AD717EA00C79000 /* Toaster.m in Sources */,
+				2AFC3BD61AD722FA00C79000 /* XYPoint.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 #import "Toaster.h"
 
-int main(int argc, const char * argv[]) {
+int main4(int argc, const char * argv[]) {
   @autoreleasepool {
     
     Toaster *breakfast = [[Toaster alloc]init];
