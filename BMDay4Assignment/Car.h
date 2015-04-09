@@ -1,5 +1,5 @@
 //
-//  main.m
+//  Car.h
 //  BMDay4Assignment
 //
 //  Created by Kunwardeep Gill on 2015-04-09.
@@ -8,12 +8,13 @@
 
 #import <Foundation/Foundation.h>
 
-int main(int argc, const char * argv[]) {
-  @autoreleasepool {
-
-    
-    
-    
-  }
-    return 0;
+@interface Car : NSObject{
+  
 }
+
+
+@property (copy) NSString *model;
+
+- (void)drive;
+
+@end
