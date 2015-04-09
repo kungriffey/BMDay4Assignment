@@ -24,6 +24,8 @@ int main(int argc, const char * argv[]) {
     
     [toyota drive];
     
+    [Car setDefaultModel:@"Nissan Versa"];
+    
   }
     return 0;
 }
