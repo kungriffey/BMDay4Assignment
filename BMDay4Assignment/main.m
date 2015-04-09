@@ -18,9 +18,9 @@ int main(int argc, const char * argv[]) {
     [toyota setInterior:@"Beige"];
     NSLog(@"Created a %@ with a %@ interior", [toyota model], [toyota interior]);
     
-    [toyota setModel:@"Toyota Camry"];
-    [toyota setInterior:@"Red"];
-    NSLog(@"Created a %@ with a %@ interior", [toyota model], [toyota interior]);
+    toyota.model = @"Toyota Camry";
+    toyota.interior = @"Red";
+    NSLog(@"Created a %@ with a %@ interior", toyota.model, toyota.interior);
     
     [toyota drive];
     
