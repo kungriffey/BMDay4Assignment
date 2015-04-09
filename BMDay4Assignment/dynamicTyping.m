@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 #import "Car.h"
 
-int main(int argc, const char * argv[]) {
+int main2(int argc, const char * argv[]) {
   @autoreleasepool {
     Car *delorean = [[Car alloc] initWithModel:@"DeLorean"];
     
