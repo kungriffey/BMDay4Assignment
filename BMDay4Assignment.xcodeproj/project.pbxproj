@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		2AFC3BA41AD6F83100C79000 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AFC3BA31AD6F83100C79000 /* main.m */; };
 		2AFC3BAC1AD6F9BD00C79000 /* Car.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AFC3BAB1AD6F9BD00C79000 /* Car.m */; };
+		2AFC3BAF1AD70B6800C79000 /* dynamicTyping.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AFC3BAE1AD70B6800C79000 /* dynamicTyping.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,7 @@
 		2AFC3BA31AD6F83100C79000 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2AFC3BAA1AD6F9BD00C79000 /* Car.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Car.h; path = BMDay4Assignment/Car.h; sourceTree = "<group>"; };
 		2AFC3BAB1AD6F9BD00C79000 /* Car.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Car.m; path = BMDay4Assignment/Car.m; sourceTree = "<group>"; };
+		2AFC3BAE1AD70B6800C79000 /* dynamicTyping.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = dynamicTyping.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 			isa = PBXGroup;
 			children = (
 				2AFC3BA31AD6F83100C79000 /* main.m */,
+				2AFC3BAE1AD70B6800C79000 /* dynamicTyping.m */,
 			);
 			path = BMDay4Assignment;
 			sourceTree = "<group>";
@@ -132,6 +135,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2AFC3BAC1AD6F9BD00C79000 /* Car.m in Sources */,
+				2AFC3BAF1AD70B6800C79000 /* dynamicTyping.m in Sources */,
 				2AFC3BA41AD6F83100C79000 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

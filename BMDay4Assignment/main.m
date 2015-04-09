@@ -10,7 +10,7 @@
 
 #import "Car.h"
 
-int main(int argc, const char * argv[]) {
+int main1(int argc, const char * argv[]) {
   @autoreleasepool {
 
     Car *toyota = [[Car alloc]init];

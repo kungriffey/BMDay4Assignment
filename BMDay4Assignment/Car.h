@@ -18,7 +18,9 @@
 
 - (void)drive;
 - (id)initWithModel;
-- (id) initWithModel:(NSString *)aModel;
+- (id) initWithModel:(NSString *)aModel; //useful for setting defaults.
 + (void)setDefaultModel:(NSString *)aModel;
+
+
 
 @end

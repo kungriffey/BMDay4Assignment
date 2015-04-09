@@ -39,11 +39,17 @@ static NSString *_defaultModel;
   
 }
 
-
 - (id)init {
   // Forward to the "designated" initialization method
   return [self initWithModel:_defaultModel];
 }
 
+
++ (void)initialize{
+  if(self == [Car class]){
+    //makes sure its not executed more than once
+    _defaultModel = @"Nissan Versa";
+  }
+}
 
 @end
