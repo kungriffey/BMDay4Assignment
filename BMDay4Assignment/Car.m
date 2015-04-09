@@ -22,7 +22,27 @@ static NSString *_defaultModel;
 
 + (void)setDefaultModel:(NSString *)aModel{
   
-  _defaultModel = [aModel copy];
+  _defaultModel = [aModel copy]; //because aModel is a class method,
+                                 //we cannot send it to _defaultModel (they are in seperate classes) we have to copy
+}
+
+- (id)initWithModel:(NSString *)aModel{
+  
+  self = [super init];
+  
+  if (self) {
+    _model = [aModel copy];
+    _odometer = 0;
+  }
+  
+  return self;
+  
+}
+
+
+- (id)init {
+  // Forward to the "designated" initialization method
+  return [self initWithModel:_defaultModel];
 }
 
 

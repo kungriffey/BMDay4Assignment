@@ -17,6 +17,8 @@
 @property (copy) NSString *interior;
 
 - (void)drive;
+- (id)initWithModel;
+- (id) initWithModel:(NSString *)aModel;
 + (void)setDefaultModel:(NSString *)aModel;
 
 @end
