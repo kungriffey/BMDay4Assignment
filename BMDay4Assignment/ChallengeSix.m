@@ -17,11 +17,14 @@ int main(int argc, const char * argv[]) {
     XYPoint *yValue = [[XYPoint alloc]init];
     
     
+    
+    //commented out to avoid redundancy
     //[xValue whatIsXValue:@25];
     //[yValue whatIsYValue:@25];
     
     NSLog(@"The Coordinates (%@, %@)", [xValue whatIsYValue:@26],
                                        [yValue whatIsYValue:@26]);
+
     
   }
   return 0;

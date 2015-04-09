@@ -14,6 +14,7 @@
   [car steerTheWheel]
   [boat steerTheWheel]
  
- The advantage of having an action that could be applied everywhere is 
+ The advantage of having an action that could be applied everywhere is
+ you can maintain your current class properties as well.
  
 */

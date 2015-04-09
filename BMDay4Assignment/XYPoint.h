@@ -10,6 +10,8 @@
 
 @interface XYPoint : NSObject
 
+@property NSNumber *xNumber;
+@property NSNumber *yNumber;
 
 
 - (NSNumber*)whatIsXValue:(NSNumber*)xLocation;
