@@ -10,7 +10,7 @@
 #import "XYPoint.h"
 
 
-int main(int argc, const char * argv[]) {
+int main6(int argc, const char * argv[]) {
   @autoreleasepool {
     
     XYPoint *xValue = [[XYPoint alloc]init];

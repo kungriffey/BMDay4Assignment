@@ -18,6 +18,8 @@
 		2AFC3BD31AD7228400C79000 /* ChallengeSix.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AFC3BD21AD7228400C79000 /* ChallengeSix.m */; };
 		2AFC3BD61AD722FA00C79000 /* XYPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AFC3BD51AD722FA00C79000 /* XYPoint.m */; };
 		2AFC3BD81AD72EE300C79000 /* ChallengeFive.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AFC3BD71AD72EE300C79000 /* ChallengeFive.m */; };
+		2AFC3BDB1AD8356900C79000 /* XYUsingProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AFC3BDA1AD8356900C79000 /* XYUsingProperties.m */; };
+		2AFC3BDD1AD8358800C79000 /* ChallengeSixPartTwo.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AFC3BDC1AD8358800C79000 /* ChallengeSixPartTwo.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -48,6 +50,9 @@
 		2AFC3BD41AD722FA00C79000 /* XYPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XYPoint.h; path = BMDay4Assignment/XYPoint.h; sourceTree = "<group>"; };
 		2AFC3BD51AD722FA00C79000 /* XYPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XYPoint.m; path = BMDay4Assignment/XYPoint.m; sourceTree = "<group>"; };
 		2AFC3BD71AD72EE300C79000 /* ChallengeFive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChallengeFive.m; sourceTree = "<group>"; };
+		2AFC3BD91AD8356900C79000 /* XYUsingProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XYUsingProperties.h; path = BMDay4Assignment/XYUsingProperties.h; sourceTree = "<group>"; };
+		2AFC3BDA1AD8356900C79000 /* XYUsingProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XYUsingProperties.m; path = BMDay4Assignment/XYUsingProperties.m; sourceTree = "<group>"; };
+		2AFC3BDC1AD8358800C79000 /* ChallengeSixPartTwo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ChallengeSixPartTwo.m; path = ../ChallengeSixPartTwo.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +94,7 @@
 				2AFC3BD01AD720F400C79000 /* ChallengeFour.m */,
 				2AFC3BD71AD72EE300C79000 /* ChallengeFive.m */,
 				2AFC3BD21AD7228400C79000 /* ChallengeSix.m */,
+				2AFC3BDC1AD8358800C79000 /* ChallengeSixPartTwo.m */,
 			);
 			path = BMDay4Assignment;
 			sourceTree = "<group>";
@@ -102,6 +108,8 @@
 				2AFC3BCA1AD717EA00C79000 /* Toaster.m */,
 				2AFC3BD41AD722FA00C79000 /* XYPoint.h */,
 				2AFC3BD51AD722FA00C79000 /* XYPoint.m */,
+				2AFC3BD91AD8356900C79000 /* XYUsingProperties.h */,
+				2AFC3BDA1AD8356900C79000 /* XYUsingProperties.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -167,11 +175,13 @@
 				2AFC3BAF1AD70B6800C79000 /* dynamicTyping.m in Sources */,
 				2AFC3BCD1AD71B9900C79000 /* ChallengeTwo.m in Sources */,
 				2AFC3BD81AD72EE300C79000 /* ChallengeFive.m in Sources */,
+				2AFC3BDD1AD8358800C79000 /* ChallengeSixPartTwo.m in Sources */,
 				2AFC3BCF1AD71CE600C79000 /* ChallengeThree.m in Sources */,
 				2AFC3BC81AD717D700C79000 /* ChallengeOne.m in Sources */,
 				2AFC3BA41AD6F83100C79000 /* main.m in Sources */,
 				2AFC3BD31AD7228400C79000 /* ChallengeSix.m in Sources */,
 				2AFC3BCB1AD717EA00C79000 /* Toaster.m in Sources */,
+				2AFC3BDB1AD8356900C79000 /* XYUsingProperties.m in Sources */,
 				2AFC3BD61AD722FA00C79000 /* XYPoint.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
