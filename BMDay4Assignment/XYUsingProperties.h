@@ -13,11 +13,11 @@
 
 @property (strong,nonatomic) NSNumber* xValue;
 @property (strong,nonatomic) NSNumber* yValue;
-@property (strong,nonatomic) NSString* cartesianValue;
+//@property (strong,nonatomic) NSArray* cartesianValues;
 
-- (NSNumber*) getXCoordinate:(NSNumber*)xCoordinate;
-- (NSNumber*) getYCoordinate:(NSNumber*)yCoordinate;
-- (NSString*) convertToCoordinate:(NSNumber*)yChord :(NSNumber*)xchord;
+//- (NSNumber*) getXCoordinate:(NSNumber*)xCoordinate;
+//- (NSNumber*) getYCoordinate:(NSNumber*)yCoordinate;
+- (NSArray*) convertToCoordinate:(NSNumber*)yChord :(NSNumber*)xchord;
 
 
 @end

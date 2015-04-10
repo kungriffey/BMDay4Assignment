@@ -16,11 +16,13 @@ int main(int argc, const char * argv[]) {
         
     
     XYUsingProperties *coordinate = [[XYUsingProperties alloc]init];
+    //coordinate.xValue=@15;
     
-    coordinate.xValue = [coordinate getXCoordinate:@15];
-    coordinate.yValue = [coordinate getYCoordinate:@20];
+    NSArray *derp =[[NSArray alloc]init];
+    derp = [coordinate convertToCoordinate:@25 :@25];
     
-    NSLog(@"Your coordinates are (%@,%@)", coordinate.xValue, coordinate.yValue);
+    //NSLog(@"Your coordinates are (%@,%@)", coordinate.xValue, coordinate.yValue);
+    NSLog(@"Your coordinates are %@", derp);
     
   }
   return 0;

@@ -11,17 +11,30 @@
 @implementation XYUsingProperties
 
 
-- (NSNumber*) getXCoordinate:(NSNumber*)xCoordinate{
+//- (NSNumber*) getXCoordinate:(NSNumber*)xCoordinate{
+//  
+//  self.xValue = xCoordinate;
+//  
+//  return self.xValue;
+//  
+//}
+//- (NSNumber*) getYCoordinate:(NSNumber*)yCoordinate{
+//  
+//  self.yValue = yCoordinate;
+//  return self.yValue;
+//  
+//}
+
+- (NSArray*) convertToCoordinate:(NSNumber*)xCoordinate :(NSNumber*)yCoordinate{
   
   self.xValue = xCoordinate;
-  
-  return self.xValue;
-  
-}
-- (NSNumber*) getYCoordinate:(NSNumber*)yCoordinate{
-  
   self.yValue = yCoordinate;
-  return self.yValue;
+  
+  NSArray * cartesianValues = [[NSArray alloc]init];
+  cartesianValues = @[self.xValue, self.yValue];
+  
+  return cartesianValues;
+  
   
 }
 
