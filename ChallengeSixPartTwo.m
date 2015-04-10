@@ -22,7 +22,6 @@ int main(int argc, const char * argv[]) {
     
     NSLog(@"Your coordinates are (%@,%@)", coordinate.xValue, coordinate.yValue);
     
-    
   }
   return 0;
 }
